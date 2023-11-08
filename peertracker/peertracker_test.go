@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/AstaFrode/go-peertaskqueue/peertask"
+	"github.com/AstaFrode/go-peertaskqueue/testutil"
 	"github.com/benbjohnson/clock"
-	"github.com/ipfs/go-peertaskqueue/peertask"
-	"github.com/ipfs/go-peertaskqueue/testutil"
 )
 
 const testMaxActiveWorkPerPeer = 100

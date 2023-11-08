@@ -5,10 +5,10 @@ import (
 	"math/bits"
 	"sync"
 
+	"github.com/AstaFrode/go-libp2p/core/peer"
+	"github.com/AstaFrode/go-peertaskqueue/peertask"
 	"github.com/benbjohnson/clock"
 	pq "github.com/ipfs/go-ipfs-pq"
-	"github.com/ipfs/go-peertaskqueue/peertask"
-	"github.com/libp2p/go-libp2p/core/peer"
 )
 
 var clockInstance = clock.New()

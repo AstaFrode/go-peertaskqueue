@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ipfs/go-peertaskqueue/peertask"
-	"github.com/ipfs/go-peertaskqueue/testutil"
-	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/AstaFrode/go-libp2p/core/peer"
+	"github.com/AstaFrode/go-peertaskqueue/peertask"
+	"github.com/AstaFrode/go-peertaskqueue/testutil"
 )
 
 func TestPushPop(t *testing.T) {
